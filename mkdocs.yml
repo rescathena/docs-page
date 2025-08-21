@@ -1,4 +1,5 @@
-site_name: Rescathena 
+site_name: Rescathena
+site_url: https://rescathena.github.io
 
 theme:
   name: material
