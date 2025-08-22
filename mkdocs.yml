@@ -28,6 +28,7 @@ theme:
   language: en
   features:
     - navigation.sections
+    - navigation.path
 
 
 markdown_extensions:
