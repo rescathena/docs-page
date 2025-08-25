@@ -3,6 +3,7 @@ site_url: https://rescathena.com
 
 theme:
   name: material
+  logo: assets/logo_blue.svg
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -13,7 +14,8 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default 
-      primary: white 
+      primary: white
+      logo: assets/logo.svg
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -21,7 +23,8 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black 
+      primary: black
+      logo: assets/logo_white.svg
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
@@ -29,6 +32,7 @@ theme:
   features:
     - navigation.sections
     - navigation.path
+    - navigation.footer
 
 
 markdown_extensions:
