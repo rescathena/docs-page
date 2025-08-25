@@ -44,6 +44,12 @@ Our community thrives on diversity of thought and expertise. We're actively seek
 - 🎨**Designers** - Craft beautiful, functional experiences that inspire action
 - 💭**Philosophers** – Help us navigate the ethical dimensions of our work
 
+### Legal & Compliance
+
+- ⚖️**Legal Experts** - Navigate regulatory frameworks and ensure compliance across jurisdictions
+- 🐾**Animal Law Specialists** - Provide expertise in animal welfare legislation and rescue regulations
+- 💳**Financial Law Experts** - Handle money transaction regulations, payment processing compliance, and financial services law
+
 ## Your Expertise is Needed—No Matter What It Is
 
 Don't see your background listed? That doesn't mean we don't need you. Innovation happens at the intersection of different fields, and your unique perspective might be exactly what we're missing.
@@ -57,6 +63,8 @@ The animals are waiting. Rescue organisations need better tools. The future of a
 - What drives your passion for animal welfare
 - What skills and experience you bring
 - How you envision contributing to Rescathena
+
+You can read more about the Rescathena initiative [here](https://juanmiguelrua.com/posts/rescathena_seed/).
 
 Let's build something extraordinary together, because every animal deserves a chance, and every helper deserves the best tools to make it happen.
 
