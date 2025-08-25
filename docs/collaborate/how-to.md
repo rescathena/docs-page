@@ -64,7 +64,7 @@ The animals are waiting. Rescue organisations need better tools. The future of a
 - What skills and experience you bring
 - How you envision contributing to Rescathena
 
-You can read more about the Rescathena initiative [here](https://juanmiguelrua.com/posts/rescathena_seed/).
+You can read more about the Rescathena initiative and me [here](https://juanmiguelrua.com/posts/rescathena_seed/).
 
 Let's build something extraordinary together, because every animal deserves a chance, and every helper deserves the best tools to make it happen.
 
