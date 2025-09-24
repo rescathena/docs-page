@@ -43,7 +43,7 @@ When a new Animal Rescue Organization (NGO) wants to join the Rescathena Network
 ## Transaction Flow in Rescathena
 
 
-Following the same guidelines as the Hyperledger's Transaction flow where the explain the process of a transaction in a blockchain network, we can outline how Rescathena operates in a similar manner. The Rescathena scenario involves Animal Rescue Organizations (AROs) that publish their initiatives, donors who fund these initiatives with donations through the Rescathena Network and the AROs that execute the initiatives and report back to the donors through the Rescathena Network.
+Following the same guidelines as the [Hyperledger's Transaction flow](https://hyperledger-fabric.readthedocs.io/en/release-2.5/txflow.html) where the explain the process of a transaction in a blockchain network, we can outline how Rescathena operates in a similar manner. The Rescathena scenario involves Animal Rescue Organizations (AROs) that publish their initiatives, donors who fund these initiatives with donations through the Rescathena Network and the AROs that execute the initiatives and report back to the donors through the Rescathena Network.
 
 
 
