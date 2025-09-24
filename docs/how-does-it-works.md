@@ -32,6 +32,8 @@ In this initial stage of the Rescathena Network, we have the following component
 !!! note ""
     Note that rights and permissions are defined at a channel level. Just because an organization is an administrator of one channel does not mean its pairs are the only one that can endorse transactions on that channel.
 
+![Adding a new NGO Organization to the Rescathena Network](assets/images/add_ngo_r_network.svg)
+
 When a new Animal Rescue Organization (NGO) wants to join the Rescathena Network, the following steps are taken:
 
 - Decide on the new organization's permissions and role. The full scope of these rights must be agreed before the **RONGO1** organization is added to the channel **RC**. It comprises the same kind of questions as in the initial configuration of the channel but more tailored to a NGO organization that will publish initiatives and report back to the donors.
