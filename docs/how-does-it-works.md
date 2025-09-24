@@ -18,9 +18,9 @@ In this initial stage of the Rescathena Network, we have the following component
 
 - The [Ordering Service](https://hyperledger-fabric.readthedocs.io/en/release-2.5/orderer/ordering_service.html) **OSR** (_Ordering Service Rescathena_) which owner is the **ROA** organization, is in charge of ordering the transactions and creating the blocks.
 
-- **ROAP1** and **ROAP2** are the [peers](https://hyperledger-fabric.readthedocs.io/en/release-2.5/peers/peers.html) of the **ROA** organization. They are the ones responsible for maintaining the infrastructure of the network, validating and committing transactions. In other words, they are the technical experts that ensure the network runs smoothly.
+- **ROAP1** and **ROAP2** are the [peers](https://hyperledger-fabric.readthedocs.io/en/release-2.5/peers/peers.html) of the **ROA** organization. They are the ones responsible for maintaining the infrastructure of the network. In other words, they are the technical experts that ensure the network runs smoothly. It does not means that they are the only ones that cand endorse transactions of configurations changes on the channel, as this is defined by the policies of the channel and requires the endorsement of the rest of the organizations' peers.
 
-- **ROAD1** and **ROAD2** are the [peers](https://hyperledger-fabric.readthedocs.io/en/release-2.5/peers/peers.html) of the **ROD** organization. They are a repsresentation of the donors that will fund the initiatives published by the Rescaetha Organizations NGOs that will be part of the network in the future.
+- **ROAD1** and **ROAD2** are the [peers](https://hyperledger-fabric.readthedocs.io/en/release-2.5/peers/peers.html) of the **ROD** organization. They are a representation of the donors that will fund the initiatives published by the Rescaetha Organizations NGOs that will be part of the network in the future.
 
 - **ROAA1**, **ROAA2**, **RODA1** and **RODA2** are the applications that interact with the network on behalf of the peers. They can be web applications, mobile applications, or any other type of application that can send transactions to the network.
 
