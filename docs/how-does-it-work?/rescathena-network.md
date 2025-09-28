@@ -1,13 +1,11 @@
 ---
-title: How does it Works?
+title: Rescathena Network
 ---
 
 
-## Rescathena Network
-
 Inspired by the [Sample Network](https://hyperledger-fabric.readthedocs.io/en/release-2.5/network/network.html#the-sample-network) explained in the official documentation of hyperledger fabric documentation, this is a simplified version of the initial state of the Rescathena Network, which will evolve over time as new features and functionalities are added.
 
-![Rescathena Network](assets/images/initial_r_network.svg)
+![Rescathena Network](../assets/images/initial_r_network.svg)
 
 
 In this initial stage of the Rescathena Network, we have the following components:
@@ -32,18 +30,11 @@ In this initial stage of the Rescathena Network, we have the following component
 !!! note ""
     Note that rights and permissions are defined at a channel level. Just because an organization is an administrator of one channel does not mean its pairs are the only one that can endorse transactions on that channel.
 
-![Adding a new NGO Organization to the Rescathena Network](assets/images/add_ngo_r_network.svg)
+![Adding a new NGO Organization to the Rescathena Network](../assets/images/add_ngo_r_network.svg)
 
 When a new Animal Rescue Organization (NGO) wants to join the Rescathena Network, the following steps are taken:
 
 - Decide on the new organization's permissions and role. The full scope of these rights must be agreed before the **RONGO1** organization is added to the channel **RC**. It comprises the same kind of questions as in the initial configuration of the channel but more tailored to a NGO organization that will publish initiatives and report back to the donors.
 - Update the channel, including the relevant chaincodes, to reflect these decisions.
 - The NGO organisation **RONGO1** establishes its peers **RONGOP1** and **RONGOP2**, as well as the applications **RONGOA1** and **RONGOA2**, which will interact with the network on behalf of the peers.It is illogical for an NGO organisation to have more than two peers, such that the peers are solely responsible for interacting with the Rescatehna Network on behalf of the NGO.
-
-## Transaction Flow in Rescathena
-
-
-Following the same guidelines as the [Hyperledger's Transaction flow](https://hyperledger-fabric.readthedocs.io/en/release-2.5/txflow.html) where the explain the process of a transaction in a blockchain network, we can outline how Rescathena operates in a similar manner. The Rescathena scenario involves Animal Rescue Organizations (AROs) that publish their initiatives, donors who fund these initiatives with donations through the Rescathena Network and the AROs that execute the initiatives and report back to the donors through the Rescathena Network.
-
-
 
