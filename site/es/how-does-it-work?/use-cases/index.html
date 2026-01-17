@@ -1,0 +1,1012 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://rescathena.com/es/how-does-it-work%3F/use-cases/">
+      
+      
+        <link rel="prev" href="../rescathena-network/">
+      
+      
+      
+      <link rel="icon" href="../../../assets/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.17">
+    
+    
+      
+        <title>Casos de Uso - Rescathena</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#flujos-de-transaccion-en-rescathena" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../../" title="Rescathena" class="md-header__button md-logo" aria-label="Rescathena" data-md-component="logo">
+      
+  <img src="../../../assets/favicon.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Rescathena
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Casos de Uso
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Seleccionar idioma">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../how-does-it-work%3F/use-cases/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../" title="Rescathena" class="md-nav__button md-logo" aria-label="Rescathena" data-md-component="logo">
+      
+  <img src="../../../assets/favicon.svg" alt="logo">
+
+    </a>
+    Rescathena
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ¿Qué es Rescathena?
+    
+  </span>
+  
+    
+  
+  
+    <span class="md-status md-status--new"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Licencia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Collaborate
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Collaborate
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../collaborate/how-to/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ¡Cualquier contribución es bienvenida!
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    How does it work?
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            How does it work?
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rescathena-network/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Red Rescathena
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Casos de Uso
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de Uso
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#flujos-de-transaccion-en-rescathena" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flujos de Transacción en Rescathena
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-uniendose-a-la-red-rescathena" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Uniéndose a la Red Rescathena
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Uniéndose a la Red Rescathena">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caso-a-una-nueva-ong-de-rescate-animal-solicita-unirse" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caso A: Una nueva ONG de Rescate Animal solicita unirse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caso-b-un-donante-solicita-unirse" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caso B: Un donante solicita unirse
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-publicando-iniciativas" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Publicando Iniciativas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Publicando Iniciativas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caso-c-una-ong-publica-una-nueva-iniciativa-de-rescate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caso C: Una ONG publica una nueva iniciativa de rescate
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-realizando-donaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Realizando donaciones
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Realizando donaciones">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caso-d-un-donante-realiza-una-donacion-a-una-iniciativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caso D: Un donante realiza una donación a una iniciativa
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-rendicion-de-cuentas-y-evidencia-de-impacto" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Rendición de Cuentas y Evidencia de Impacto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Rendición de Cuentas y Evidencia de Impacto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caso-e-rendicion-de-cuentas-de-la-ong-despues-de-recibir-donaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caso E: Rendición de cuentas de la ONG después de recibir donaciones
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Caso E: Rendición de cuentas de la ONG después de recibir donaciones">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#si-no-se-publica-evidencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Si no se publica evidencia
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#si-se-publica-evidencia-a-tiempo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Si se publica evidencia a tiempo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#si-la-evidencia-falla-la-evaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Si la evidencia falla la evaluación:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#flujos-de-transaccion-en-rescathena" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flujos de Transacción en Rescathena
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-uniendose-a-la-red-rescathena" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Uniéndose a la Red Rescathena
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Uniéndose a la Red Rescathena">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caso-a-una-nueva-ong-de-rescate-animal-solicita-unirse" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caso A: Una nueva ONG de Rescate Animal solicita unirse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caso-b-un-donante-solicita-unirse" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caso B: Un donante solicita unirse
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-publicando-iniciativas" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Publicando Iniciativas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Publicando Iniciativas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caso-c-una-ong-publica-una-nueva-iniciativa-de-rescate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caso C: Una ONG publica una nueva iniciativa de rescate
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-realizando-donaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Realizando donaciones
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Realizando donaciones">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caso-d-un-donante-realiza-una-donacion-a-una-iniciativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caso D: Un donante realiza una donación a una iniciativa
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-rendicion-de-cuentas-y-evidencia-de-impacto" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Rendición de Cuentas y Evidencia de Impacto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Rendición de Cuentas y Evidencia de Impacto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caso-e-rendicion-de-cuentas-de-la-ong-despues-de-recibir-donaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caso E: Rendición de cuentas de la ONG después de recibir donaciones
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Caso E: Rendición de cuentas de la ONG después de recibir donaciones">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#si-no-se-publica-evidencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Si no se publica evidencia
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#si-se-publica-evidencia-a-tiempo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Si se publica evidencia a tiempo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#si-la-evidencia-falla-la-evaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Si la evidencia falla la evaluación:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Casos de Uso</h1>
+
+<h2 id="flujos-de-transaccion-en-rescathena">Flujos de Transacción en Rescathena</h2>
+<p>Siguiendo las mismas pautas que el <a href="https://hyperledger-fabric.readthedocs.io/en/release-2.5/txflow.html">Flujo de Transacción de Hyperledger</a> donde explican el proceso de una transacción en una red blockchain, podemos describir cómo opera Rescathena de manera similar. El escenario de Rescathena involucra a Organizaciones de Rescate Animal (ONGs) que publican sus iniciativas, donantes que financian estas iniciativas con donaciones a través de la Red Rescathena y las ONGs que ejecutan las iniciativas e informan a los donantes a través de la Red Rescathena.</p>
+<p>A continuación, explicamos cómo funciona el <a href="https://hyperledger-fabric.readthedocs.io/en/release-2.5/txflow.html">flujo de transacción</a> en diferentes casos de uso de Rescathena.</p>
+<h2 id="1-uniendose-a-la-red-rescathena">1. Uniéndose a la Red Rescathena</h2>
+<h3 id="caso-a-una-nueva-ong-de-rescate-animal-solicita-unirse">Caso A: Una nueva ONG de Rescate Animal solicita unirse</h3>
+<ol>
+<li>
+<p>La ONG envía una solicitud para formar parte de la Red Rescathena.</p>
+</li>
+<li>
+<p>Esta solicitud se registra como una propuesta de transacción en la blockchain.</p>
+</li>
+<li>
+<p>Los pares de la red (<em>miembros de confianza existentes</em>) revisan la solicitud.</p>
+</li>
+<li>
+<p>Si la mayoría verifica respaldando, la ONG se añade oficialmente a la blockchain como una organización reconocida ✅.</p>
+</li>
+</ol>
+<h3 id="caso-b-un-donante-solicita-unirse">Caso B: Un donante solicita unirse</h3>
+<ol>
+<li>
+<p>Al igual que las ONGs, los donantes deben solicitar pertenecer a la red.</p>
+</li>
+<li>
+<p>Su identidad es validada y almacenada en la blockchain.</p>
+</li>
+<li>
+<p>Una vez aprobado por respaldo, al Donante se le otorgará permiso para interactuar con ONGs e iniciativas ✅.</p>
+</li>
+</ol>
+<h2 id="2-publicando-iniciativas">2. Publicando Iniciativas</h2>
+<h3 id="caso-c-una-ong-publica-una-nueva-iniciativa-de-rescate">Caso C: Una ONG publica una nueva iniciativa de rescate</h3>
+<ol>
+<li>
+<p>La ONG envía los detalles de la iniciativa (propósito, necesidades de financiamiento, plazos).</p>
+</li>
+<li>
+<p>Este envío se registra como una transacción blockchain.</p>
+</li>
+<li>
+<p>Los pares validan la entrada, asegurando que proviene de una ONG verificada, que el propósito tiene sentido con las necesidades de financiamiento y plazos.</p>
+</li>
+<li>
+<p>Si la mayoría de los pares aprueban la iniciativa, se vuelve visible en la Red Rescathena y lista para recibir donaciones ✅.</p>
+</li>
+<li>
+<p>De lo contrario, si la iniciativa es rechazada, la ONG es notificada con las razones del rechazo ❌.</p>
+</li>
+</ol>
+<h2 id="3-realizando-donaciones">3. Realizando donaciones</h2>
+<h3 id="caso-d-un-donante-realiza-una-donacion-a-una-iniciativa">Caso D: Un donante realiza una donación a una iniciativa</h3>
+<ol>
+<li>
+<p>El donante selecciona una iniciativa y propone una transacción de donación.</p>
+</li>
+<li>
+<p>La donación se registra en la blockchain como una transacción pendiente.</p>
+</li>
+<li>
+<p>Los pares validan que tanto el donante como la ONG sean miembros legítimos.</p>
+</li>
+<li>
+<p>Una vez aprobada, la donación se realiza, finaliza y se registra de forma inmutable.</p>
+</li>
+<li>
+<p>Finalmente, la donación se vincula de forma transparente a la iniciativa, asegurando que los fondos sean rastreables ✅.</p>
+</li>
+</ol>
+<h2 id="4-rendicion-de-cuentas-y-evidencia-de-impacto">4. Rendición de Cuentas y Evidencia de Impacto</h2>
+<h3 id="caso-e-rendicion-de-cuentas-de-la-ong-despues-de-recibir-donaciones">Caso E: Rendición de cuentas de la ONG después de recibir donaciones</h3>
+<p>Una vez que una ONG recibe donaciones, tienen una ventana de tiempo fija para <strong>publicar evidencia</strong> mostrando cómo se utilizaron los fondos. Esta evidencia también se registra como una transacción.</p>
+<h4 id="si-no-se-publica-evidencia">Si no se publica evidencia</h4>
+<ul>
+<li>
+<p>La calificación de la iniciativa disminuye ★★★★☆.</p>
+</li>
+<li>
+<p>La calificación de reputación general de la ONG disminuye también ★★★☆☆.</p>
+</li>
+</ul>
+<h4 id="si-se-publica-evidencia-a-tiempo">Si se publica evidencia a tiempo</h4>
+<ol>
+<li>
+<p>Los pares revisan y validan la evidencia.</p>
+</li>
+<li>
+<p>Si la evidencia cumple con los requisitos:</p>
+<ul>
+<li>
+<p>La calificación de la iniciativa aumenta ★★★★★.</p>
+</li>
+<li>
+<p>La calificación de reputación de la ONG aumenta ★★★★★.</p>
+</li>
+</ul>
+</li>
+</ol>
+<h4 id="si-la-evidencia-falla-la-evaluacion">Si la evidencia falla la evaluación:</h4>
+<ol>
+<li>Tanto la calificación de la iniciativa como la de la ONG disminuyen ★★★☆☆.</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Nota</p>
+<p>Si la calificación general de una ONG cae por debajo del promedio de la red, la organización será invitada a abandonar la Red Rescathena.
+Esta salvaguarda protege a los donantes, asegura equidad, y garantiza que solo las ONGs más transparentes y confiables permanezcan como parte de la comunidad.</p>
+</div>
+<p>Como resultado, las ONGs son incentivadas a permanecer <strong>transparentes y responsables</strong>, mientras que los donantes siempre pueden ver si sus contribuciones tuvieron un impacto real.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+          
+          <a href="../rescathena-network/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Red Rescathena">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Red Rescathena
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.sections", "navigation.path", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+        <script src="../../../javascripts/branding.js"></script>
+      
+        <script src="../../../javascripts/language-redirect.js"></script>
+      
+    
+  </body>
+</html>

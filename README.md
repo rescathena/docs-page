@@ -10,8 +10,14 @@ To run the documentation site locally, you need to have Python and `pip` install
 
 2. Navigate to the project directory.
 
-3. Serve the page with `uvx`:
+3. Install dependencies:
 
    ```bash
-   uvx --with mkdocs-material mkdocs serve
+   uv sync
+   ```
+
+4. Serve the page with `uv run`:
+
+   ```bash
+   uv run mkdocs serve
    ```

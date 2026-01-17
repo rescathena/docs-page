@@ -1,0 +1,159 @@
+/* Google Fonts Import for Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* Color Variables derived from only-page palette */
+:root {
+  /* Rescathena Color Palette */
+  --rescathena-dark: #1E2227;
+  /* slate-900 equivalent */
+  --rescathena-light: #EDEDED;
+  /* gray-100 equivalent */
+  --rescathena-muted: #98999B;
+  /* gray-400 equivalent */
+  --rescathena-accent: #45A1A9;
+  /* Teal */
+  --rescathena-gray: #7C7C7C;
+  /* gray-500 */
+  --rescathena-coral: #EC5042;
+  /* Coral/Red - Warning/Alert */
+
+  --rescathena-font: 'Inter', sans-serif;
+}
+
+/* 
+ * OVERRIDE MKDOCS MATERIAL THEME VARIABLES 
+ * See https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#css-variables
+ */
+
+/* LIGHT MODE SCHEME (default) */
+[data-md-color-scheme="default"] {
+  /* Backgrounds */
+  --md-default-bg-color: var(--rescathena-light);
+  --md-default-bg-color--light: #ffffff;
+  /* Slightly lighter for cards/surfaces */
+  --md-default-fg-color: var(--rescathena-dark);
+  /* Text color */
+  --md-default-fg-color--light: var(--rescathena-gray);
+  /* Muted text */
+  --md-default-fg-color--lighter: var(--rescathena-muted);
+  /* Even more muted */
+
+  /* Primary Color (Header, etc) */
+  --md-primary-fg-color: var(--rescathena-dark);
+  /* Dark Header in Light mode for contrast */
+  --md-primary-bg-color: var(--rescathena-light);
+  /* Content background */
+
+  /* Accent Color */
+  --md-accent-fg-color: var(--rescathena-accent);
+  /* Links, buttons */
+
+  /* Admonitions / Alerts */
+  --md-typeset-a-color: var(--rescathena-accent);
+}
+
+/* DARK MODE SCHEME (slate) */
+[data-md-color-scheme="slate"] {
+  /* Backgrounds */
+  --md-default-bg-color: var(--rescathena-dark);
+  --md-default-bg-color--light: #2A2F35;
+  /* Slightly lighter for cards/surfaces */
+  --md-default-fg-color: var(--rescathena-light);
+  /* Text color */
+  --md-default-fg-color--light: var(--rescathena-muted);
+  /* Muted text */
+  --md-default-fg-color--lighter: var(--rescathena-gray);
+
+  /* Primary Color */
+  --md-primary-fg-color: var(--rescathena-dark);
+  --md-primary-bg-color: var(--rescathena-dark);
+
+  /* Accent Color */
+  --md-accent-fg-color: var(--rescathena-accent);
+
+  /* Admonitions / Alerts */
+  --md-typeset-a-color: var(--rescathena-accent);
+}
+
+/* GLOBAL FONT OVERRIDES */
+body,
+input,
+.md-typeset {
+  font-family: var(--rescathena-font) !important;
+}
+
+.md-header {
+  background-color: var(--rescathena-dark) !important;
+}
+
+[data-md-color-scheme="default"] .md-header {
+  background-color: #ffffff !important;
+  color: var(--rescathena-dark) !important;
+}
+
+[data-md-color-scheme="default"] .md-header__title,
+[data-md-color-scheme="default"] .md-header__button {
+  color: var(--rescathena-dark) !important;
+}
+
+[data-md-color-scheme="default"] .md-tabs {
+  background-color: #ffffff !important;
+  color: var(--rescathena-dark) !important;
+}
+
+/* Button Refinements */
+.md-button--primary {
+  background-color: var(--rescathena-accent) !important;
+  border-color: var(--rescathena-accent) !important;
+  color: white !important;
+}
+
+.md-button--primary:hover {
+  background-color: #3d8f96 !important;
+  /* Somewhat darker teal */
+}
+
+/* Branding Classes */
+.brand-resc {
+  color: var(--rescathena-accent);
+  font-weight: 800;
+  /* Extra bold for emphasis */
+}
+
+.brand-athena {
+  font-weight: 800;
+  transition: color 0.3s ease;
+}
+
+/* Light Mode: Athena is Dark */
+[data-md-color-scheme="default"] .brand-athena {
+  color: var(--rescathena-dark);
+}
+
+/* Dark Mode: Athena is Light */
+[data-md-color-scheme="slate"] .brand-athena {
+  color: var(--rescathena-light);
+}
+
+/* Footer styling */
+.md-footer {
+  background-color: var(--rescathena-dark);
+}
+
+/* DARK MODE SPECIFIC HEADER FIXES */
+[data-md-color-scheme="slate"] .md-header {
+  background-color: var(--rescathena-dark) !important;
+  color: var(--rescathena-light) !important;
+}
+
+[data-md-color-scheme="slate"] .md-header__title,
+[data-md-color-scheme="slate"] .md-header__topic,
+[data-md-color-scheme="slate"] .md-header__button,
+[data-md-color-scheme="slate"] .md-tabs__link {
+  color: var(--rescathena-light) !important;
+}
+
+/* Ensure hover states are visible */
+[data-md-color-scheme="slate"] .md-header__button:hover {
+  opacity: 0.7;
+}
