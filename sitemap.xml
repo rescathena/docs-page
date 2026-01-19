@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://rescathena.com/</loc>
+        <lastmod>2026-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rescathena.com/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://rescathena.com/es/"/>
+    </url>
+    <url>
+        <loc>https://rescathena.com/license/</loc>
+        <lastmod>2026-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rescathena.com/license/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://rescathena.com/es/license/"/>
+    </url>
+    <url>
+        <loc>https://rescathena.com/collaborate/how-to/</loc>
+        <lastmod>2026-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rescathena.com/collaborate/how-to/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://rescathena.com/es/collaborate/how-to/"/>
+    </url>
+    <url>
+        <loc>https://rescathena.com/how-does-it-work%3F/rescathena-network/</loc>
+        <lastmod>2026-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rescathena.com/how-does-it-work%3F/rescathena-network/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://rescathena.com/es/how-does-it-work%3F/rescathena-network/"/>
+    </url>
+    <url>
+        <loc>https://rescathena.com/how-does-it-work%3F/use-cases/</loc>
+        <lastmod>2026-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rescathena.com/how-does-it-work%3F/use-cases/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://rescathena.com/es/how-does-it-work%3F/use-cases/"/>
+    </url>
+    <url>
+        <loc>https://rescathena.com/es/</loc>
+        <lastmod>2026-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://rescathena.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rescathena.com/"/>
+    </url>
+    <url>
+        <loc>https://rescathena.com/es/license/</loc>
+        <lastmod>2026-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://rescathena.com/es/license/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rescathena.com/license/"/>
+    </url>
+    <url>
+        <loc>https://rescathena.com/es/collaborate/how-to/</loc>
+        <lastmod>2026-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://rescathena.com/es/collaborate/how-to/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rescathena.com/collaborate/how-to/"/>
+    </url>
+    <url>
+        <loc>https://rescathena.com/es/how-does-it-work%3F/rescathena-network/</loc>
+        <lastmod>2026-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://rescathena.com/es/how-does-it-work%3F/rescathena-network/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rescathena.com/how-does-it-work%3F/rescathena-network/"/>
+    </url>
+    <url>
+        <loc>https://rescathena.com/es/how-does-it-work%3F/use-cases/</loc>
+        <lastmod>2026-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://rescathena.com/es/how-does-it-work%3F/use-cases/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rescathena.com/how-does-it-work%3F/use-cases/"/>
+    </url>
+</urlset>
